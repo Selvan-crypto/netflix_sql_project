@@ -39,3 +39,5 @@ create table netflix(
 	description varchar(250 )
 );
 ```
+## Business Problems and Solutions
+### 1. Count the Number of Movies vs TV Shows
