@@ -73,7 +73,7 @@ where type = 'Movie' and release_year = 2020;
 
 **Objective:** Retrieve all movies released in a specific year.
 
-## 4. Find the Top 5 Countries with the Most Content on Netflix
+### 4. Find the Top 5 Countries with the Most Content on Netflix
 
 ```sql
 with group_up as (
@@ -137,7 +137,7 @@ group by 1;
 
 **Objective:** Count the number of content items in each genre.
 
-### 10.Find each year and the average numbers of content release in India on netflix.Return top 5 year avgerage content release
+### 10.Find each year and the average numbers of content release in India on netflix. Return top 5 year avgerage content release
 
 ```sql
 with average as (select date_part('year',cast(date_added as date)) as year_, 
@@ -192,7 +192,7 @@ limit 10
 
 **Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
 
-### 15. Categorize Content Based on the Presence of 'Kill' or 'Violence' Keywords in description field.Label content containing these keywords as Bad and also other content as 'Good'.Count how many item fall in each category
+### 15. Categorize Content Based on the Presence of 'Kill' or 'Violence' Keywords in description field. Label content containing these keywords as Bad and also other content as 'Good'.Count how many item fall in each category
 
 ```sql
 select 
