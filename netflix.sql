@@ -25,7 +25,7 @@ group by type;
 
 --2. Find the most common rating for Movies and TV shows 
 
-with group_up as (
+with group_up as(
 	select type,rating, count(*) as total_count from netflix
 	where rating is not null
 	group by 1,2
