@@ -13,7 +13,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 -- List and analyze content based on release years, countries and duration.
 -- Explore and categories content based on specific criteria and keywords.
 
-##
+
 ## Dataset
 
 The Data for this project is sourced from the kaggle dataset:
