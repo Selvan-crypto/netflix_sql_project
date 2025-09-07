@@ -9,7 +9,7 @@ create table netflix(
 	release_year int,	
 	rating	varchar(10),
 	duration varchar(15),
-	listed_in varchar(100  ),
+	listed_in varchar(100),
 	description varchar(250 )
 );
 
